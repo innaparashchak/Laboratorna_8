@@ -1,0 +1,20 @@
+from math import *
+a = int(input("Введіть a: "))
+b = int(input("Введіть b: "))
+x = int(input("Введіть x: "))
+def suma(num):
+    for el in range(a):
+        if x > 3:
+            suma1 = cos(x), cos(x)**6
+            return suma1
+        else:
+            suma2 = cos(x), (-1)**5*cos(x)
+            return suma2
+def get_max(num1, num2):
+    if num1 > num2:
+        min = num2
+    else:
+        min = num1
+    return min
+u = min(suma(a), suma(b))
+print("Min = {0}".format(u))
